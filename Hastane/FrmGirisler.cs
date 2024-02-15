@@ -1,8 +1,8 @@
 namespace Hastane
 {
-    public partial class Form1 : Form
+    public partial class FrmGirisler : Form
     {
-        public Form1()
+        public FrmGirisler()
         {
             InitializeComponent();
         }

@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace Hastane
 {
-    public partial class FrmHastaGiriş : Form
+    public partial class FrmHastaKayit : Form
     {
-        public FrmHastaGiriş()
+        public FrmHastaKayit()
         {
             InitializeComponent();
-        }
-
-        private void FrmHastaGiriş_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }
