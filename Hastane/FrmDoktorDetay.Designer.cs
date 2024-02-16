@@ -41,7 +41,6 @@
             BtnGuncelle = new Button();
             BtnDuyurular = new Button();
             BtnCıkıs = new Button();
-            BtnInternet = new Button();
             groupBox1.SuspendLayout();
             groupBox2.SuspendLayout();
             groupBox3.SuspendLayout();
@@ -145,7 +144,6 @@
             // 
             // groupBox4
             // 
-            groupBox4.Controls.Add(BtnInternet);
             groupBox4.Controls.Add(BtnCıkıs);
             groupBox4.Controls.Add(BtnDuyurular);
             groupBox4.Controls.Add(BtnGuncelle);
@@ -179,22 +177,12 @@
             // BtnCıkıs
             // 
             BtnCıkıs.Font = new Font("Corbel", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            BtnCıkıs.Location = new Point(250, 79);
+            BtnCıkıs.Location = new Point(20, 79);
             BtnCıkıs.Name = "BtnCıkıs";
-            BtnCıkıs.Size = new Size(216, 47);
+            BtnCıkıs.Size = new Size(446, 47);
             BtnCıkıs.TabIndex = 2;
             BtnCıkıs.Text = "Çıkış";
             BtnCıkıs.UseVisualStyleBackColor = true;
-            // 
-            // BtnInternet
-            // 
-            BtnInternet.Font = new Font("Corbel", 13.8F, FontStyle.Regular, GraphicsUnit.Point, 162);
-            BtnInternet.Location = new Point(20, 79);
-            BtnInternet.Name = "BtnInternet";
-            BtnInternet.Size = new Size(216, 47);
-            BtnInternet.TabIndex = 3;
-            BtnInternet.Text = "Hızlı Erişim";
-            BtnInternet.UseVisualStyleBackColor = true;
             // 
             // FrmDoktorDetay
             // 
@@ -232,6 +220,5 @@
         private Button BtnCıkıs;
         private Button BtnDuyurular;
         private Button BtnGuncelle;
-        private Button BtnInternet;
     }
 }
